@@ -15,7 +15,8 @@ npm install -g javascript-random-messages
 ```
 
 ## Test 🧪
-```npm run test
+```
+npm run test
 ```
 ## Build with docker 🐳
 ```docker-compose
