@@ -1,0 +1,42 @@
+{
+  "name": "javascript-random-messages",
+  "version": "1.1.3",
+  "description": "It is a javascript 🟨 project package project for same random messages ✉️ Whenever I start a new project, I don't know what to write for the first commit. After doing a “git init” there is technically nothing there.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest -c jest.config.js --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zearkiatos/javascript-random-messages.git"
+  },
+  "keywords": [
+    "Javascript",
+    "Packages",
+    "Random",
+    "Messages",
+    "Node",
+    "Npm"
+  ],
+  "author": "Pedro Capriles <caprilespe@outlook.com>",
+  "license": "MIT",
+  "bin": {
+    "random-messages": "bin/global.js"
+  },
+  "preferGlobal": true,
+  "bugs": {
+    "url": "https://github.com/zearkiatos/javascript-random-messages/issues"
+  },
+  "homepage": "https://github.com/zearkiatos/javascript-random-messages#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.6",
+    "jest": "^27.2.1"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-transform-runtime": "^7.15.0"
+  },
+  "directories": {
+    "test": "tests"
+  }
+}
